@@ -1,7 +1,6 @@
 .form {
     display: inline-block;
     width: 100%;
-    background-color: white;
 }
 
     .form-row {
@@ -36,21 +35,21 @@
             .input:focus {
                 outline: 3px solid #0069ba;
             }
+     
 
-            
-
-        form-row > .text {
+        .form-row > .text {
             display: inline-block;
-            line-height: 40px;
+            line-height: 20px;
             font-size: 18px;
             padding: 10px;
         }
 
-        form-row > .link {
+        .form-row > .link {
             display: inline-block;
-            line-height: 40px;
+            line-height: 20px;
             font-size: 18px;
             padding: 10px;
+            color: #0069BA;
         }
 
         .form-row:hover > .link{
