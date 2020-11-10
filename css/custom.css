@@ -1,81 +1,65 @@
-body,
-body * {
-        box-sizing: border-box;
-        background-color: rgb(124, 214, 226);
-        margin: 0;
-        padding: 0;
-        vertical-align: top;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+body {
+    background-color: #4BB3C9;
 }
-
 .container {
     display: inline-block;
     width: 800px;
-    /* background-color: rgb(219, 157, 157); */
     margin-top: 100px;
     margin-left: calc( (100% - 800px) / 2);
+    position: relative;
 }
+
 
     .left-column {
         display: inline-block;
         width: 40%;
-        background-color: rgb(96, 67, 201);
-        float: left;
-
+        padding: 40px;
+        padding-bottom: 20px;
+        background-color: #0069BA;
+        color: #fff;
+        position: absolute;
+        top: 30px;
+        bottom: 30px;
     }
 
         .page-title {
-
+            display: inline-block;
+            width: 100%;
+            
         }
 
         .bottom-links {
-
+            position: absolute;
+            bottom: 20px;
+            left: 40px;
+            right: 40px;
         }
 
             .bottom-links > .link {
-
+                color: white;
             }
 
             .bottom-links > .text {
                 
             }
 
-    .right-column {
-        display: inline-block;
-        width: 60%;
-        background-color: rgb(255, 255, 255);
-        float: left;
-        padding: 60xp;
+        .right-column {
+            display: inline-block;
+            width: 60%;
+            float: right;
+            padding: 60px;
+            background-color: #fff;
+            position: relative;
         }
 
             .close {
-
+                    display: inline-block;
+                    width: 60px;
+                    height: 60px;
+                    background-color: red;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
             }
 
-            .form {
-
-            }
-
-                .form-row {
-
-                }
-
-                    .label {
-
-                    }
-
-                    .input {
-
-                    }
-
-                    .btn {
-
-                    }
-
-                    .text {
-
-                    }
-
-                    .link {
-
-                    }
+            
