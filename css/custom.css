@@ -16,11 +16,24 @@ body {
         padding: 40px;
         padding-bottom: 20px;
         background-color: #0069BA;
-        background-image: ;
+        background-image: url(../img/hill.jpg);
         color: #fff;
         position: absolute;
         top: 30px;
         bottom: 30px;
+        z-index: -2;
+    }
+
+    .left-column::after {
+        content: " ";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(65, 43, 122);
+        opacity: 0.6;
+        z-index: -1;
     }
 
         .page-title {
