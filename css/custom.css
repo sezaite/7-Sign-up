@@ -32,6 +32,7 @@ body {
         width: 100%;
         height: 100%;
         background-color: rgb(65, 43, 122);
+        background-size: cover;
         opacity: 0.6;
         z-index: -1;
     }
@@ -53,12 +54,12 @@ body {
                 color: white;
             }
 
-            .bottom-links > .text {
+            /* .bottom-links > .text {
                 
-            }
+            } */
 
         .right-column {
-            display: inline-block;
+            /* display: inline-block; */
             width: 60%;
             float: right;
             padding: 60px;
