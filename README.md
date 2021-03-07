@@ -8,7 +8,7 @@
 
 This project is for educational purposes only. 
 
-Site published at https://sezaite.github.io/7-Sign-up/
+Site published at https://sezaite.github.io/frontend-practice-7-Sign-up/
 
 Design: [Sign up modal](https://cdn.discordapp.com/attachments/648536139677958156/648860801997996052/day1dr.png)
 
